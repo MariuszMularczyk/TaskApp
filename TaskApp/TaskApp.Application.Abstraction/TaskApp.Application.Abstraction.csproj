@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.2" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskApp.Data.Abstraction\TaskApp.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\TaskApp.Dictionaries\TaskApp.Dictionaries.csproj" />
+    <ProjectReference Include="..\TaskApp.Domain\TaskApp.Domain.csproj" />
+    <ProjectReference Include="..\TaskApp.Infrastructure\TaskApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TaskApp.Resources\TaskApp.Resources.csproj" />
+  </ItemGroup>
+
+</Project>

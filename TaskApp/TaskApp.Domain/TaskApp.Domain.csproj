@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskApp.Dictionaries\TaskApp.Dictionaries.csproj" />
+    <ProjectReference Include="..\TaskApp.Domain.Core\TaskApp.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>

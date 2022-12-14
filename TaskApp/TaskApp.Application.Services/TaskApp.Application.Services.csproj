@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.0.2" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="NLog" Version="4.7.5" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.2" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskApp.Application.Abstraction\TaskApp.Application.Abstraction.csproj" />
+    <ProjectReference Include="..\TaskApp.Data.Abstraction\TaskApp.Data.Abstraction.csproj" />
+    <ProjectReference Include="..\TaskApp.Data.Repositories\TaskApp.Data.Repositories.csproj" />
+    <ProjectReference Include="..\TaskApp.Dictionaries\TaskApp.Dictionaries.csproj" />
+    <ProjectReference Include="..\TaskApp.Domain\TaskApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+</Project>
